@@ -7,10 +7,11 @@ It displays map obtained from the Google maps service using Latitude,Longitude a
 Install the RBT.Kentico.Xperience.Custom.Widgets.GoogleMap.1.0.0 NuGet Package to your Xperience by Kentico website (>=29.4.0 with .Net 8.0). 
 
 # Widget
-This is a widget which allows you to add a GoogleMap to your screen with certain attributes that can be configured while adding. The properties that can be configured are:
+This is a widget which allows you to add a GoogleMap Widget to your screen with certain attributes that can be configured while adding. The properties that can be configured are:
 
-- Latitude*: Enter desire Latitude
-- Longitude*: Enter desire Longitude
+- IsVisible: Select this option to display the widget on the page
+- Latitude*: Enter your desired Latitude
+- Longitude*: Enter your desired Longitude
 
 *Required fields
 
@@ -20,7 +21,7 @@ Make sure to insert your Google Maps API token into appSettings.json:
 
 # Author
 
-This custom widget was created by @Ray Business Technologies Pvt Ltd. Last updated 27-02-2025
+This custom widget was created by @Ray Business Technologies Pvt Ltd. Last updated 28-02-2025
 
 # License
 
@@ -36,4 +37,4 @@ Please report any issues seen, in the issue list. We will address at the earlies
 
 # Compatibility
 
-This widget has been tested on Xperience by Kentico version (30.1.1) and can be used on >=29.4.0 with .Net 8.0. 
+This widget has been tested on Xperience by Kentico version (29.4.0) and can be used on >=29.4.0 with .Net 8.0. 
